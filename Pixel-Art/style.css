@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(image/art-color-abstract-design.jpg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  
+  
+}
+
+header {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 45px;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color, .defined,  #white-color{
+  border: 1px solid black;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+  border-radius: 0% 0% 35% 35%;
+}
+
+#first-color {
+  background-color: black;
+}
+#pixel-board {
+  display: inline-block;
+  max-width: 210px;
+  height: 200px;
+  line-height: 0px;
+}
+section h1{
+  border: 1px solid black;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  background: radial-gradient(circle, rgba(0,175,0,0.7063200280112045) 0%, rgba(255,0,0,0.7987570028011204) 35%, rgba(0,0,255,0.8015581232492998) 100%);
+  background-color: black;
+  text-decoration: solid;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pixel {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+section.palette-section{
+  display: inline-block;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+  text-align: center;
+  position: fixed;
+  margin-left: 5px;
+}
+
+div.buttons, #actual-color{
+border: 1px solid black;
+width: auto;
+}
+
+
+.second-palette, #color-palette{
+    display: flex;
+    border:1px solid black;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+}
+
+#white-color {
+  background-color: rgb(255, 255, 255);
+}
+
+
+#button-random {
+  width: 55px;
+  margin-right: 0;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  height: 40px;
+  position:static ;
+  display: inline-block;
+}
+
+#choose-color {
+  margin-left: 160px;
+  width: 30px;
+  margin-top: 30px;
+  height: 20px;
+  position: fixed;
+}
+#choose-input {
+  margin-left: 95px;
+  margin-top: 3px;
+  width: 95px;
+  height: 20px;
+  position: fixed;
+}
+.defined {
+  margin-left: 200px;
+}
+
+.centralizar {
+  align-items: center;
+  text-align: center;
+}
+
+#palette-board {
+  height: 160px;
+  margin-top: 5px;
+  position: fixed;
+}
+
+#actual-color {
+  display: block;
+  text-align: left;
+}
+#actual-color p{
+  margin-left: 3px;
+}
+.actual {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-bottom: 3px;
+  background-color: black;
+}
+
+.random {
+  border: 1px solid black;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+  border-radius: 0% 0% 35% 35%;
+}
+
+.buttons{
+    border: 1px solid black;
+}
+
+#clear-color{
+    margin-left: 95px;
+    width: 55px;
+    margin-top: 30px;
+    height: 35px;
+    position: fixed;
+}
+
+#minimizar {
+  width: 20px;
+}

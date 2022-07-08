@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pixels Art</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 id="pixel-art"><strong>PIXEL ART</strong></h1>
+    </header>
+      <button id="minimizar" class="show">-</button>
+      <section class="palette-section">
+        <h1 id="title" element="hidden">Paleta de Cores</h1>
+        <div class="palette-section" id="color-palette">
+            <div class="color selected" id="first-color"></div>
+            <div class="color random" id="second-color"></div>
+            <div class="color random" id="third-color"></div>
+            <div class="color random" id="fourth-color"></div>
+        </div>
+        <div class="second-palette" id="second-palette">
+            <div id="white-color"></div>
+        </div>
+        <div class="buttons">
+            <button type="button" id="button-random">Novas Cores</button>
+            <input type="text" value="" id="choose-input" placeholder="Digite uma cor"/>
+            <button type="button" id="choose-color">Add</button>
+            <button type="button" id="clear-color">Limpa Cores</button>
+            <div class="defined"></div>
+        </div>
+        <div id="actual-color">
+            <p><strong>Cor Atual</strong></p>
+            <div class="actual"></div>
+          </div>
+
+      </section>
+
+
+
+    <div class="centralizar">
+      <section>
+        <input type="number" min="5" max="50" id="board-size" value="5" />
+        <button type="button" id="generate-board">#VQV</button>
+        <button type="button" id="clear-board">Limpar</button>
+      </section>
+      <section id="pixel-board"></section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
